@@ -1,0 +1,159 @@
+/* Here goes your CSS */
+.container {
+  width: 550px;   /* Set width */
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+.card {
+  background-color: #FAFAFA;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px #C1C1C1;
+  padding: 40px;
+  text-align: center;
+  margin: 20px;
+}
+
+body {
+  background-color: #F1F1F1;
+  font-family: Open Sans;
+  color: #5E5E5E;
+  font-size: 14px;
+}
+
+p {
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+  font-family: Montserrat;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 1.0em;
+  color: #71BA51;
+}
+
+h2, h3 {
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 17px;
+}
+
+.less-margin-bottom {
+  margin-bottom: 5px;
+}
+
+.more-margin-bottom {
+  margin-bottom: 20px;
+}
+
+
+h3 {
+  font-size: 13px;
+}
+
+h4 {
+  font-family: Montserrat;
+  font-size: 8px;
+  margin-top: 0;
+}
+
+a {
+  color: #999999;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+a:hover {
+  color: #64BA3C;
+  transition-duration: 0.4s;
+}
+
+.profile {
+  border: 2px solid #D4D4D4;
+  border-radius: 100px;
+  height: 120px;
+}
+
+td p {
+  font-size: 14px;
+}
+
+.film {
+  width: 150px;
+  border-radius: 20px;
+  padding: 10px;
+  opacity: 0.75;
+  transition-duration: 0.4s;
+  transform: scale(0.98);
+}
+
+.film:hover {
+  opacity: 1;
+  transform: scale(1);
+  transition-duration: 0.8s;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fa {
+  font-size: 20px;
+}
+
+.btn {
+  color: #71BA51;
+  border: 1px solid #5B9440;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.btn:hover {
+  color: #F8F8F8;
+  background-color: #63BA3B;
+}
+
+#page-content {
+  margin-left: 300px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #71BA51;
+  box-shadow: 1px 0px 4px #C1C1C1;
+}
+
+#sidebar li {
+  text-decoration: none;
+  display: block;
+  padding: 15px 15px 15px 0;
+  vertical-align: center;
+}
+
+#sidebar li > a {
+  color: #CEFFB7;
+}
+
+#sidebar li > a:hover {
+  color: #FFF;
+  text-shadow: 1px 1px 4px #5EBA33;
+  transition-duration: 0.4s;
+}
